@@ -4,7 +4,7 @@ node () {
   }
   stage("Build"){
       sh '''
-      mvn package
+      mvn packagee
       '''
   }
 }
